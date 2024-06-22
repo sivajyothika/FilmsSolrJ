@@ -1,14 +1,25 @@
 package org.example.solr;
 
 
+import org.apache.solr.client.solrj.beans.Field;
+
 import java.util.ArrayList;
 
 public class Films {
 
+    @Field
     public String id;
+
+    @Field
     public ArrayList<String> directed_by;
+
+    @Field
     public String initial_release_date;
+
+    @Field
     public ArrayList<String> genre;
+
+    @Field
     public String name;
 
     public String getId() {
