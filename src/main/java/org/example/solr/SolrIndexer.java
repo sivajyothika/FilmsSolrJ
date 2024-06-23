@@ -12,6 +12,11 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class SolrIndexer {
+    /**
+     * reads the dataset for indexing it into the solr
+     * @return
+     * @throws IOException
+     */
     public static ArrayList<Films> readFilms() throws IOException {
         String filmsData = new String(Files.readAllBytes(Paths.get("films.json")));
 //        System.out.println(String.valueOf(filmsData));
