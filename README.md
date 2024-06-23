@@ -5,3 +5,11 @@ In this particular project , trying to read films json data in java using pojo a
 **SolrJ Version : 8.11.0 (maven dependency)**
 
 **Editor : IntelliJ Idea**
+
+Commands To Start and Stop the Solr Server : 
+
+To start the solr server : **solr start**
+
+To stop the solr server : **solr stop -p port:no**
+
+Command to create solr core : **solr create -c core_name**

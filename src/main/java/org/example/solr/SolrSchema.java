@@ -20,6 +20,18 @@ public class SolrSchema {
         schemaAddField(solrClient,"initial_release_date","string",true,true,false);
         schemaAddField(solrClient,"genre","text_general",true,true,true);
     }
+
+    /**
+     * shows how to define schema using solrJ client.
+     * @param solrClient
+     * @param fieldName
+     * @param filedType
+     * @param stored
+     * @param indexed
+     * @param multivalued
+     * @throws SolrServerException
+     * @throws IOException
+     */
     public static void schemaAddField(SolrClient solrClient,String fieldName,String filedType,boolean stored,boolean indexed,boolean multivalued) throws SolrServerException, IOException {
         Map<String,Object> schemaFields = new LinkedHashMap<>();
         schemaFields.put("name",fieldName);
