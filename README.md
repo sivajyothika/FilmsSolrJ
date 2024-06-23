@@ -13,3 +13,6 @@ To start the solr server : **solr start**
 To stop the solr server : **solr stop -p port:no**
 
 Command to create solr core : **solr create -c core_name**
+
+![image](https://github.com/sivajyothika/FilmsSolJ/assets/108735487/76814aa5-f58d-4672-9d57-6b38f56efb1e)
+
